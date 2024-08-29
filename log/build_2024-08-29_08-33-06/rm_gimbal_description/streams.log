@@ -1,0 +1,44 @@
+[0.561s] Invoking command in '/home/lth/ros_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/lth/ros_ws/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/lth/ros_ws/install/rm_gimbal_description
+[2.015s] -- The C compiler identification is GNU 11.4.0
+[4.115s] -- The CXX compiler identification is GNU 11.4.0
+[4.268s] -- Detecting C compiler ABI info
+[6.205s] -- Detecting C compiler ABI info - done
+[6.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.265s] -- Detecting C compile features
+[6.265s] -- Detecting C compile features - done
+[6.309s] -- Detecting CXX compiler ABI info
+[8.480s] -- Detecting CXX compiler ABI info - done
+[8.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.480s] -- Detecting CXX compile features
+[8.481s] -- Detecting CXX compile features - done
+[8.752s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.153s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[17.436s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.053s] -- Added test 'lint_cmake' to check CMake code style
+[21.208s] -- Added test 'xmllint' to check XML markup files
+[21.247s] -- Configuring done
+[21.306s] -- Generating done
+[21.307s] -- Build files have been written to: /home/lth/ros_ws/build/rm_gimbal_description
+[21.434s] Invoked command in '/home/lth/ros_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/lth/ros_ws/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/lth/ros_ws/install/rm_gimbal_description
+[21.434s] Invoking command in '/home/lth/ros_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/rm_gimbal_description -- -j16 -l16
+[23.101s] Invoked command in '/home/lth/ros_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/rm_gimbal_description -- -j16 -l16
+[24.898s] Invoking command in '/home/lth/ros_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/rm_gimbal_description
+[25.068s] -- Install configuration: ""
+[25.070s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf
+[25.071s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[25.072s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[25.179s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[25.181s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+[25.181s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[25.182s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+[25.183s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[25.184s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[25.185s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[25.186s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[25.187s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[25.189s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[25.256s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[25.257s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[25.258s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[25.261s] -- Installing: /home/lth/ros_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[25.337s] Invoked command in '/home/lth/ros_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/rm_gimbal_description

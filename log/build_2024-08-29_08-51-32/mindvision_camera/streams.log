@@ -1,0 +1,36 @@
+[0.479s] Invoking command in '/home/lth/ros_ws/build/mindvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/mindvision_camera -- -j16 -l16
+[1.427s] [35m[1mConsolidate compiler generated dependencies of target mindvision_camera[0m
+[1.818s] [35m[1mConsolidate compiler generated dependencies of target mindvision_camera_node[0m
+[2.106s] [ 50%] Built target mindvision_camera
+[2.525s] [100%] Built target mindvision_camera_node
+[4.336s] Invoked command in '/home/lth/ros_ws/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/mindvision_camera -- -j16 -l16
+[5.934s] Invoking command in '/home/lth/ros_ws/build/mindvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/mindvision_camera
+[6.067s] -- Install configuration: ""
+[6.067s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/lib/mindvision_camera/mindvision_camera_node
+[6.068s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/library_path.sh
+[6.068s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/library_path.dsv
+[6.177s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/lib/libmindvision_camera.so
+[6.178s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/config
+[6.179s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/config/camera_info.yaml
+[6.179s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/config/camera_params.yaml
+[6.180s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/launch
+[6.181s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/launch/mv_launch.py
+[6.182s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/ament_index/resource_index/package_run_dependencies/mindvision_camera
+[6.182s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/ament_index/resource_index/parent_prefix_path/mindvision_camera
+[6.183s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/ament_prefix_path.sh
+[6.183s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/ament_prefix_path.dsv
+[6.184s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/path.sh
+[6.186s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/environment/path.dsv
+[6.187s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/local_setup.bash
+[6.187s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/local_setup.sh
+[6.187s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/local_setup.zsh
+[6.188s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/local_setup.dsv
+[6.188s] -- Installing: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/package.dsv
+[6.189s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/ament_index/resource_index/packages/mindvision_camera
+[6.189s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/ament_index/resource_index/rclcpp_components/mindvision_camera
+[6.190s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.191s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[6.191s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/cmake/mindvision_cameraConfig.cmake
+[6.192s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/cmake/mindvision_cameraConfig-version.cmake
+[6.192s] -- Up-to-date: /home/lth/ros_ws/install/mindvision_camera/share/mindvision_camera/package.xml
+[7.093s] Invoked command in '/home/lth/ros_ws/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/mindvision_camera

@@ -1,0 +1,11 @@
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/uninstall.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/mindvision_camera_uninstall.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/mindvision_camera.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/mindvision_camera_node.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/test.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/edit_cache.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/rebuild_cache.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/list_install_components.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/install.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/install/local.dir
+/home/lth/ros_ws/build/mindvision_camera/CMakeFiles/install/strip.dir

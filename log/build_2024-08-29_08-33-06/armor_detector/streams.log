@@ -1,0 +1,109 @@
+[0.439s] Invoking command in '/home/lth/ros_ws/build/armor_detector': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lth/ros_ws/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/lth/ros_ws/install/armor_detector
+[1.921s] -- The C compiler identification is GNU 11.4.0
+[2.995s] -- The CXX compiler identification is GNU 11.4.0
+[3.189s] -- Detecting C compiler ABI info
+[4.867s] -- Detecting C compiler ABI info - done
+[4.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.917s] -- Detecting C compile features
+[4.917s] -- Detecting C compile features - done
+[4.975s] -- Detecting CXX compiler ABI info
+[7.060s] -- Detecting CXX compiler ABI info - done
+[7.060s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.070s] -- Detecting CXX compile features
+[7.072s] -- Detecting CXX compile features - done
+[7.310s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[10.073s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.486s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[16.040s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[16.344s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[16.626s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.938s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[20.161s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[23.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[23.652s] -- Found FastRTPS: /opt/ros/humble/include  
+[24.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.774s] -- Looking for pthread.h
+[26.304s] -- Looking for pthread.h - found
+[26.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[27.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[27.861s] -- Found Threads: TRUE  
+[35.162s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[35.163s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[35.164s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[38.793s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[40.190s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[40.351s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[40.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[40.578s] -- Configured cppcheck include dirs: /home/lth/ros_ws/src/rm_auto_aim/armor_detector/include
+[40.578s] -- Configured cppcheck exclude dirs and/or files: 
+[40.617s] -- Added test 'lint_cmake' to check CMake code style
+[40.638s] -- Added test 'xmllint' to check XML markup files
+[40.780s] -- Added test 'clang_format' to check C / C++ code style
+[40.952s] -- Configuring done
+[42.078s] -- Generating done
+[42.255s] -- Build files have been written to: /home/lth/ros_ws/build/armor_detector
+[42.493s] Invoked command in '/home/lth/ros_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lth/ros_ws/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/lth/ros_ws/install/armor_detector
+[42.494s] Invoking command in '/home/lth/ros_ws/build/armor_detector': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lth/ros_ws/build/armor_detector -- -j16 -l16
+[44.862s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[44.863s] [ 13%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[45.243s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[45.244s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[45.245s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[45.394s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[45.755s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[52.596s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[55.408s] [ 53%] Built target gtest_main
+[57.080s] [ 60%] [32m[1mLinking CXX executable armor_detector_node[0m
+[60.432s] [ 60%] Built target armor_detector_node
+[84.040s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[87.010s] [ 66%] Built target gtest
+[168.336s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[182.077s] [ 73%] Built target armor_detector
+[182.678s] [ 80%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[182.801s] [ 86%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[206.866s] [ 93%] [32m[1mLinking CXX executable test_node_startup[0m
+[208.646s] [100%] [32m[1mLinking CXX executable test_number_cls[0m
+[210.392s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[211.846s] [100%] Built target test_number_cls
+[216.151s] [100%] Built target test_node_startup
+[216.842s] Invoked command in '/home/lth/ros_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lth/ros_ws/build/armor_detector -- -j16 -l16
+[218.842s] Invoking command in '/home/lth/ros_ws/build/armor_detector': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lth/ros_ws/build/armor_detector
+[218.972s] -- Install configuration: ""
+[218.973s] -- Installing: /home/lth/ros_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[219.021s] -- Set runtime path of "/home/lth/ros_ws/install/armor_detector/lib/armor_detector/armor_detector_node" to ""
+[219.025s] -- Installing: /home/lth/ros_ws/install/armor_detector/include
+[219.028s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector
+[219.031s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[219.033s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector/detector.hpp
+[219.033s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[219.034s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector/armor.hpp
+[219.036s] -- Installing: /home/lth/ros_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[219.036s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[219.037s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[219.038s] -- Installing: /home/lth/ros_ws/install/armor_detector/lib/libarmor_detector.so
+[219.437s] -- Set runtime path of "/home/lth/ros_ws/install/armor_detector/lib/libarmor_detector.so" to ""
+[219.441s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/model
+[219.473s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[219.473s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/model/label.txt
+[219.498s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[219.500s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[219.503s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[219.506s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[219.508s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[219.509s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[219.509s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[219.510s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[219.511s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[219.511s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[219.512s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/package.dsv
+[219.513s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[219.532s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[219.532s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[219.533s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[219.534s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[219.534s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[219.535s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[219.536s] -- Installing: /home/lth/ros_ws/install/armor_detector/share/armor_detector/package.xml
+[219.624s] Invoked command in '/home/lth/ros_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble LD_LIBRARY_PATH=/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lth/ros_ws/build/armor_detector

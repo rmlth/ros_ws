@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000964] (-) JobUnselected: {'identifier': 'armor_detector'}
+[0.001183] (-) JobUnselected: {'identifier': 'armor_tracker'}
+[0.001362] (-) JobUnselected: {'identifier': 'auto_aim_interfaces'}
+[0.001482] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.001659] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.001809] (-) JobUnselected: {'identifier': 'rm_auto_aim'}
+[0.001956] (-) JobUnselected: {'identifier': 'rm_gimbal_description'}
+[0.002105] (-) JobUnselected: {'identifier': 'rm_serial_driver'}
+[0.002252] (-) JobUnselected: {'identifier': 'rm_vision_bringup'}
+[0.002430] (video_cam) JobQueued: {'identifier': 'video_cam', 'dependencies': OrderedDict()}
+[0.002586] (video_cam) JobStarted: {'identifier': 'video_cam'}
+[0.097468] (-) TimerEvent: {}
+[0.199407] (-) TimerEvent: {}
+[0.301515] (-) TimerEvent: {}
+[0.403394] (-) TimerEvent: {}
+[0.505222] (-) TimerEvent: {}
+[0.607415] (-) TimerEvent: {}
+[0.709196] (-) TimerEvent: {}
+[0.811743] (-) TimerEvent: {}
+[0.913691] (-) TimerEvent: {}
+[1.016208] (-) TimerEvent: {}
+[1.118038] (-) TimerEvent: {}
+[1.220102] (-) TimerEvent: {}
+[1.321917] (-) TimerEvent: {}
+[1.424796] (-) TimerEvent: {}
+[1.526454] (-) TimerEvent: {}
+[1.628229] (-) TimerEvent: {}
+[1.731421] (-) TimerEvent: {}
+[1.834505] (-) TimerEvent: {}
+[1.937056] (-) TimerEvent: {}
+[2.038966] (-) TimerEvent: {}
+[2.141133] (-) TimerEvent: {}
+[2.243292] (-) TimerEvent: {}
+[2.345745] (-) TimerEvent: {}
+[2.448067] (-) TimerEvent: {}
+[2.549616] (-) TimerEvent: {}
+[2.652701] (-) TimerEvent: {}
+[2.754240] (-) TimerEvent: {}
+[2.857534] (-) TimerEvent: {}
+[2.959039] (-) TimerEvent: {}
+[3.061017] (-) TimerEvent: {}
+[3.163444] (-) TimerEvent: {}
+[3.265286] (-) TimerEvent: {}
+[3.367318] (-) TimerEvent: {}
+[3.469008] (-) TimerEvent: {}
+[3.573302] (-) TimerEvent: {}
+[3.675006] (-) TimerEvent: {}
+[3.779909] (-) TimerEvent: {}
+[3.882711] (-) TimerEvent: {}
+[3.985169] (-) TimerEvent: {}
+[4.088083] (-) TimerEvent: {}
+[4.193393] (-) TimerEvent: {}
+[4.296943] (-) TimerEvent: {}
+[4.405967] (-) TimerEvent: {}
+[4.510885] (-) TimerEvent: {}
+[4.613188] (-) TimerEvent: {}
+[4.714820] (-) TimerEvent: {}
+[4.817002] (-) TimerEvent: {}
+[4.826596] (video_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/video_cam', 'build', '--build-base', '/home/lth/ros_ws/build/video_cam/build', 'install', '--record', '/home/lth/ros_ws/build/video_cam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lth/ros_ws/src/video_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.227.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'lth', 'LC_TIME': 'zh_CN.UTF-8', 'all_proxy': 'socks://192.168.227.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lth/ros_ws/install/rm_serial_driver/lib:/home/lth/ros_ws/install/mindvision_camera/lib:/home/lth/ros_ws/install/hik_camera/lib:/home/lth/ros_ws/install/armor_tracker/lib:/home/lth/ros_ws/install/armor_detector/lib:/home/lth/ros_ws/install/auto_aim_interfaces/lib:/home/lth/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lth', 'OLDPWD': '/home/lth', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '8799', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.227.1:7890/', 'COLCON_PREFIX_PATH': '/home/lth/ros_ws/install:/home/lth/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lth', 'ALL_PROXY': 'socks://192.168.227.1:7890/', 'http_proxy': 'http://192.168.227.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': ':/usr/local/lib/pkgconfig/opencv.pc', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/lth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lth-virtual-machine:@/tmp/.ICE-unix/8761,unix/lth-virtual-machine:/tmp/.ICE-unix/8761', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'ftp_proxy': 'http://192.168.227.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fb7cf736_f209_4fd2_8959_f21fd452ee20', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZZE0O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1690', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_interface:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lth/ros_ws/build/video_cam', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.227.1:7890/', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/lth/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:/home/lth/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/home/lth/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/lth/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/lth/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://192.168.227.1:7890/', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lth/ros_ws/install/rm_vision_bringup:/home/lth/ros_ws/install/rm_serial_driver:/home/lth/ros_ws/install/rm_gimbal_description:/home/lth/ros_ws/install/rm_auto_aim:/home/lth/ros_ws/install/mindvision_camera:/home/lth/ros_ws/install/hik_camera:/home/lth/ros_ws/install/armor_tracker:/home/lth/ros_ws/install/armor_detector:/home/lth/ros_ws/install/auto_aim_interfaces:/home/lth/dev_ws/install/learning_topic_cpp:/home/lth/dev_ws/install/learning_tf_cpp:/home/lth/dev_ws/install/learning_service_cpp:/home/lth/dev_ws/install/learning_pkg_c:/home/lth/dev_ws/install/learning_parameter_cpp:/home/lth/dev_ws/install/learning_node_cpp:/home/lth/dev_ws/install/learning_action_cpp:/home/lth/dev_ws/install/learning_interface'}, 'shell': False}
+[4.919073] (-) TimerEvent: {}
+[5.022673] (-) TimerEvent: {}
+[5.124837] (-) TimerEvent: {}
+[5.227508] (-) TimerEvent: {}
+[5.329191] (-) TimerEvent: {}
+[5.430942] (-) TimerEvent: {}
+[5.533506] (-) TimerEvent: {}
+[5.639261] (-) TimerEvent: {}
+[5.741042] (-) TimerEvent: {}
+[5.843546] (-) TimerEvent: {}
+[5.946058] (-) TimerEvent: {}
+[6.046784] (-) TimerEvent: {}
+[6.147815] (-) TimerEvent: {}
+[6.248580] (-) TimerEvent: {}
+[6.349270] (-) TimerEvent: {}
+[6.450284] (-) TimerEvent: {}
+[6.552776] (-) TimerEvent: {}
+[6.654733] (-) TimerEvent: {}
+[6.756092] (-) TimerEvent: {}
+[6.841130] (video_cam) StdoutLine: {'line': b'running egg_info\n'}
+[6.843864] (video_cam) StdoutLine: {'line': b'writing ../../build/video_cam/video_cam.egg-info/PKG-INFO\n'}
+[6.844234] (video_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/video_cam/video_cam.egg-info/dependency_links.txt\n'}
+[6.847213] (video_cam) StdoutLine: {'line': b'writing entry points to ../../build/video_cam/video_cam.egg-info/entry_points.txt\n'}
+[6.847603] (video_cam) StdoutLine: {'line': b'writing requirements to ../../build/video_cam/video_cam.egg-info/requires.txt\n'}
+[6.847921] (video_cam) StdoutLine: {'line': b'writing top-level names to ../../build/video_cam/video_cam.egg-info/top_level.txt\n'}
+[6.856357] (-) TimerEvent: {}
+[6.857285] (video_cam) StdoutLine: {'line': b"reading manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'\n"}
+[6.866014] (video_cam) StdoutLine: {'line': b"writing manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'\n"}
+[6.866452] (video_cam) StdoutLine: {'line': b'running build\n'}
+[6.866763] (video_cam) StdoutLine: {'line': b'running build_py\n'}
+[6.870646] (video_cam) StdoutLine: {'line': b'running install\n'}
+[6.871065] (video_cam) StdoutLine: {'line': b'running install_lib\n'}
+[6.882400] (video_cam) StdoutLine: {'line': b'running install_data\n'}
+[6.882569] (video_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.892902] (video_cam) StdoutLine: {'line': b"removing '/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.897922] (video_cam) StdoutLine: {'line': b'Copying ../../build/video_cam/video_cam.egg-info to /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.1-py3.10.egg-info\n'}
+[6.910525] (video_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[6.956687] (-) TimerEvent: {}
+[7.047637] (video_cam) StdoutLine: {'line': b'Installing video_publisher script to /home/lth/ros_ws/install/video_cam/lib/video_cam\n'}
+[7.052164] (video_cam) StdoutLine: {'line': b"writing list of installed files to '/home/lth/ros_ws/build/video_cam/install.log'\n"}
+[7.056991] (-) TimerEvent: {}
+[7.120559] (video_cam) CommandEnded: {'returncode': 0}
+[7.157436] (-) TimerEvent: {}
+[7.187949] (video_cam) JobEnded: {'identifier': 'video_cam', 'rc': 0}
+[7.192894] (-) EventReactorShutdown: {}

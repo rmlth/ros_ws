@@ -1,0 +1,21 @@
+[4.841s] Invoking command in '/home/lth/ros_ws/src/video_cam': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data
+[6.839s] running egg_info
+[6.841s] writing ../../build/video_cam/video_cam.egg-info/PKG-INFO
+[6.842s] writing dependency_links to ../../build/video_cam/video_cam.egg-info/dependency_links.txt
+[6.845s] writing entry points to ../../build/video_cam/video_cam.egg-info/entry_points.txt
+[6.845s] writing requirements to ../../build/video_cam/video_cam.egg-info/requires.txt
+[6.845s] writing top-level names to ../../build/video_cam/video_cam.egg-info/top_level.txt
+[6.855s] reading manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[6.864s] writing manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[6.864s] running build
+[6.864s] running build_py
+[6.868s] running install
+[6.869s] running install_lib
+[6.880s] running install_data
+[6.880s] running install_egg_info
+[6.890s] removing '/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.1-py3.10.egg-info' (and everything under it)
+[6.895s] Copying ../../build/video_cam/video_cam.egg-info to /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.1-py3.10.egg-info
+[6.908s] running install_scripts
+[7.045s] Installing video_publisher script to /home/lth/ros_ws/install/video_cam/lib/video_cam
+[7.050s] writing list of installed files to '/home/lth/ros_ws/build/video_cam/install.log'
+[7.118s] Invoked command in '/home/lth/ros_ws/src/video_cam' returned '0': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data
