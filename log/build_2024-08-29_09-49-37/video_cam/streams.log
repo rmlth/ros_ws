@@ -1,0 +1,21 @@
+[8.589s] Invoking command in '/home/lth/ros_ws/src/video_cam': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data
+[11.539s] running egg_info
+[11.577s] writing ../../build/video_cam/video_cam.egg-info/PKG-INFO
+[11.578s] writing dependency_links to ../../build/video_cam/video_cam.egg-info/dependency_links.txt
+[11.578s] writing entry points to ../../build/video_cam/video_cam.egg-info/entry_points.txt
+[11.579s] writing requirements to ../../build/video_cam/video_cam.egg-info/requires.txt
+[11.580s] writing top-level names to ../../build/video_cam/video_cam.egg-info/top_level.txt
+[11.581s] reading manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[11.582s] writing manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[11.583s] running build
+[11.584s] running build_py
+[11.585s] running install
+[11.585s] running install_lib
+[11.615s] running install_data
+[11.617s] running install_egg_info
+[11.617s] removing '/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[11.647s] Copying ../../build/video_cam/video_cam.egg-info to /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.0-py3.10.egg-info
+[11.674s] running install_scripts
+[11.777s] Installing video_publisher script to /home/lth/ros_ws/install/video_cam/lib/video_cam
+[11.778s] writing list of installed files to '/home/lth/ros_ws/build/video_cam/install.log'
+[11.878s] Invoked command in '/home/lth/ros_ws/src/video_cam' returned '0': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data

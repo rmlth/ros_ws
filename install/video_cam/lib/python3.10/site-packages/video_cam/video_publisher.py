@@ -11,7 +11,7 @@ class VideoPublisher(Node):
         self.timer = self.create_timer(0.033, self.timer_callback)  # 30 FPS
         
         # 指定视频文件的路径
-        self.cap = cv2.VideoCapture('/home/lth/桌面/video.mp4')
+        self.cap = cv2.VideoCapture('/home/lth/ros_ws/src/video_cam/video_cam/video.mp4')
         
         # 检查视频文件是否成功打开
         if not self.cap.isOpened():

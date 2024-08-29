@@ -15,7 +15,7 @@ def generate_launch_description():
         executable='video_publisher',   # 替换为视频发布节点的可执行文件名
         emulate_tty=True,
         output='screen',
-        parameters=[{'video_file': '/home/lth/桌面'}],  # 如果你想通过参数指定视频路径
+        parameters=[{'video_file': '/home/lth/ros_ws/src/video_cam/video_cam/video.mp4'}],  # 如果你想通过参数指定视频路径
     )
 
     detector_node = Node(
