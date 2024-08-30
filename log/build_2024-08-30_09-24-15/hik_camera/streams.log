@@ -1,0 +1,40 @@
+[0.453s] Invoking command in '/home/lth/ros_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/hik_camera -- -j16 -l16
+[1.906s] [ 50%] Built target hik_camera
+[1.960s] [100%] Built target hik_camera_node
+[4.232s] Invoked command in '/home/lth/ros_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/lth/ros_ws/build/hik_camera -- -j16 -l16
+[5.926s] Invoking command in '/home/lth/ros_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/hik_camera
+[6.133s] -- Install configuration: ""
+[6.136s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib
+[6.169s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libMediaProcess.so
+[6.170s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libFormatConversion.so
+[6.170s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libMvUsb3vTL.so
+[6.171s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libMvCameraControl.so
+[6.172s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libMVRender.so
+[6.179s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/hik_camera/hik_camera_node
+[6.181s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/library_path.sh
+[6.182s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[6.183s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/lib/libhik_camera.so
+[6.184s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/config
+[6.185s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[6.185s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[6.186s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/launch
+[6.187s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[6.187s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[6.188s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[6.189s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[6.189s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[6.190s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/path.sh
+[6.191s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/environment/path.dsv
+[6.191s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/local_setup.bash
+[6.192s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/local_setup.sh
+[6.192s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/local_setup.zsh
+[6.193s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/local_setup.dsv
+[6.194s] -- Installing: /home/lth/ros_ws/install/hik_camera/share/hik_camera/package.dsv
+[6.225s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[6.226s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[6.227s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.227s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[6.228s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[6.229s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[6.229s] -- Up-to-date: /home/lth/ros_ws/install/hik_camera/share/hik_camera/package.xml
+[6.539s] Invoked command in '/home/lth/ros_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lth/ros_ws/install/video_cam:/home/lth/dev_ws/install/learning_urdf:/home/lth/dev_ws/install/learning_topic:/home/lth/dev_ws/install/learning_tf:/home/lth/dev_ws/install/learning_service:/home/lth/dev_ws/install/learning_qos:/home/lth/dev_ws/install/learning_pkg_python:/home/lth/dev_ws/install/learning_parameter:/home/lth/dev_ws/install/learning_node:/home/lth/dev_ws/install/learning_launch:/home/lth/dev_ws/install/learning_action:/home/lth/dev_ws/install/learning_gazebo_fortress:/home/lth/dev_ws/install/learning_gazebo:/home/lth/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/lth/ros_ws/build/hik_camera

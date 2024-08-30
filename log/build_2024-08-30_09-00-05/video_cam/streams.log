@@ -1,0 +1,27 @@
+[7.428s] Invoking command in '/home/lth/ros_ws/src/video_cam': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data
+[10.258s] running egg_info
+[10.259s] writing ../../build/video_cam/video_cam.egg-info/PKG-INFO
+[10.269s] writing dependency_links to ../../build/video_cam/video_cam.egg-info/dependency_links.txt
+[10.269s] writing entry points to ../../build/video_cam/video_cam.egg-info/entry_points.txt
+[10.270s] writing requirements to ../../build/video_cam/video_cam.egg-info/requires.txt
+[10.272s] writing top-level names to ../../build/video_cam/video_cam.egg-info/top_level.txt
+[10.282s] reading manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[10.294s] writing manifest file '../../build/video_cam/video_cam.egg-info/SOURCES.txt'
+[10.294s] running build
+[10.294s] running build_py
+[10.294s] copying video_cam/__init__.py -> /home/lth/ros_ws/build/video_cam/build/lib/video_cam
+[10.295s] copying video_cam/video_publisher.py -> /home/lth/ros_ws/build/video_cam/build/lib/video_cam
+[10.307s] running install
+[10.308s] running install_lib
+[10.308s] copying /home/lth/ros_ws/build/video_cam/build/lib/video_cam/__init__.py -> /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam
+[10.318s] copying /home/lth/ros_ws/build/video_cam/build/lib/video_cam/video_publisher.py -> /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam
+[10.325s] byte-compiling /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam/__init__.py to __init__.cpython-310.pyc
+[10.326s] byte-compiling /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam/video_publisher.py to video_publisher.cpython-310.pyc
+[10.344s] running install_data
+[10.344s] running install_egg_info
+[10.362s] removing '/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[10.363s] Copying ../../build/video_cam/video_cam.egg-info to /home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages/video_cam-0.0.0-py3.10.egg-info
+[10.383s] running install_scripts
+[10.520s] Installing video_publisher script to /home/lth/ros_ws/install/video_cam/lib/video_cam
+[10.526s] writing list of installed files to '/home/lth/ros_ws/build/video_cam/install.log'
+[10.659s] Invoked command in '/home/lth/ros_ws/src/video_cam' returned '0': PYTHONPATH=/home/lth/ros_ws/build/video_cam/prefix_override:/home/lth/ros_ws/install/video_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_cam build --build-base /home/lth/ros_ws/build/video_cam/build install --record /home/lth/ros_ws/build/video_cam/install.log --single-version-externally-managed install_data

@@ -7,7 +7,7 @@ import cv2
 class VideoPublisher(Node):
     def __init__(self):
         super().__init__('video_publisher')
-        self.publisher_ = self.create_publisher(Image, 'video_frames', 10)
+        self.publisher_ = self.create_publisher(Image, '/image_raw', 10)
         self.timer = self.create_timer(0.033, self.timer_callback)  # 30 FPS
         
         # 指定视频文件的路径
